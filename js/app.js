@@ -1,8 +1,10 @@
-var fortunesList = ["Confidence is a flimsy shield.", "Welcome adversity.", "The early bird gets the worm, but the second mouse gets the cheese."];
+console.log("hi");
 
+var fortunesList = ["Confidence is a flimsy shield.", "Welcome adversity.", "The early bird gets the worm, but the second mouse gets the cheese."];
+var text = "";
+var i = Math.floor(Math.random() * 3);
+	text = fortunesList[i];
+	
 function generateFortuneCookie() {
-    var node = document.createElement("LI");
-    var textnode = document.createTextNode(fortunesList);
-    node.appendChild(textnode);
-    document.getElementById("myList").appendChild(node);
+	document.getElementById('fortune-cookie-text').innerHTML = fortunesList[0];
 }

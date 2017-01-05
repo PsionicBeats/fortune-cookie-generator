@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>COOKEH</title>
+	<title>Fortune Cookie Generator</title>
 </head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-	<div class="container">
-		<button onclick="generateFortuneCookie()">Make My Fortune!
-	</button>
-		<div>
-			<ul id="fortune-cookie-text">
-				<li>cookies</li>
-			</ul>
-		</div>
-		<div id="previous-fortunes"> <!--Use Append Child method-->
+	<div class="container"> <!--container start-->
+		<button onclick="generateFortuneCookie()">
+			Make My Fortune!
+		</button>
+		<div class="article1">
+			<p>Fortune Cookie</p>
 			<ul>
-				<li>previous</li>
+				<li id="fortune-cookie-text"></li>
 			</ul>
-		</div>
-	</div>
+		</div> <!--fct end-->
+		<div class="article2"> <!--Use Append Child method-->
+			<p>Previous Fortunes</p>
+			<ul>
+				<li id="previous-fortunes"></li>
+			</ul>
+		</div> <!--pf end-->
+	</div> <!--container end-->
 </body>
 <script type="text/javascript" src="js/app.js">
 </script>
