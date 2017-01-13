@@ -1,4 +1,4 @@
-.article1 {
+#first {
 	width: 200px;
 	height: 200px;
 	margin: 10px;
@@ -6,7 +6,7 @@
 	background-color: #d5e1f7;
 }
 
-.article2 {
+#second {
 	width: 200px;
 	height: 200px;
 	margin: 10px;
